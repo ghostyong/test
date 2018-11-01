@@ -71,11 +71,11 @@
         },
         clearInv () {
             clearInterval(this.invId)
-        },
-        mounted () {
+        }
+      },
+      mounted () {
             this.runInv()
         }
-      }
     }
 </script>
 
